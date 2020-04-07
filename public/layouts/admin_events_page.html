@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Admin: View All Events</title>
+        <!-- Add in stylesheets, fonts, icons -->
+        <link href='https://fonts.googleapis.com/css?family=Montserrat|Rubik|Roboto|Shadows+Into+Light' rel='stylesheet'>
+<!--		<link rel="stylesheet" type="text/css" href="../stylesheets/user_view.css">-->
+        <link rel="stylesheet" type="text/css" href="../stylesheets/admin_events_page.css">
+    </head>
+
+    <body>
+        <h1 id="date">TODAY IS SATURDAY MAR 6, 2020</h1>
+        <div id="logout">Log Out</div>
+        <a href="index.html" id="logoutPic"><img src="../images/logout.png" alt="logout" ></a>
+        <div id="dashboardArea">
+
+            <p id="viewTitle">All Events</p>
+
+            <div class="homeIconContainer">
+                <a href="admin_view.html"><img class="homeIcon" src="../images/home.png" alt="setting"></a>
+                <div>Home</div>
+            </div>
+
+            <div id="allEvents" class="eventList">
+
+                <ul>
+                    <li class="event">
+                        <div class="eventDate"><span class="monthFont">FEB</span><br><span class="dayFont">29</span></div>
+                        <a href="#" class="eventImage"><img src="../images/club_pic.png" alt="Bake Sale"></a>
+                        <div class="eventInfo">
+                            <span class="eventTitle">Habitat For Humanity: Fundraising Baking Sales</span><br><br>
+                            <span class="eventTitle">Event Description:</span> Bring your bakeries for sale!<br>
+                            <span class="eventTitle">Where:</span> Bahen Foyer<br>
+                            <span class="eventTitle">When:</span> February 29th 10am - 6pm<br>
+                        </div>
+                        <a class="eventButton">Manage</a>
+                    </li>
+                    <li class="event">
+                        <div class="eventDate"><span class="monthFont">FEB</span><br><span class="dayFont">3</span></div>
+                        <a href="#" class="eventImage"><img src="../images/gaming_club.jpg" alt="LOL"></a>
+                        <div class="eventInfo">
+                            <span class="eventTitle">League of Legends Group Stage</span><br><br>
+                            <span class="eventTitle">Event Description</span> Show off your gaming skills!<br>
+                            <span class="eventTitle">Where:</span> Bahen Foyer<br>
+                            <span class="eventTitle">When:</span> March 3rd 10am - 6pm<br>
+                        </div>
+                        <a class="eventButton">Manage</a>
+                    </li>
+                </ul>
+
+
+            </div>
+
+        </div>
+
+
+        <script src="../scripts/date.js" type="text/javascript"></script>
+    </body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>UofT Events</title>
+        <!-- -->
+        <link href='https://fonts.googleapis.com/css?family=Montserrat|Rubik|Roboto|Shadows+Into+Light' rel='stylesheet'>
+        <link rel="stylesheet" type="text/css" href="../stylesheets/index.css">
+    </head>
+    <body>
+        <img src="../images/Utoronto.png" alt="UofT Logo" id="loginPic">
+        <div class='login'>
+            <div class='loginForm'>
+                <form id="usernmPswdLgn">
+                    <label>Username</label>
+                    <input type="text" placeholder="Enter your username" id="uname" required>
+                
+                    <label>Password</label>
+                    <input type="password" placeholder="Enter your password" id="psw" required>
+                    
+                    <div class="submit">
+                        <button id="loginButton" type="submit">Login</button></div>
+                </form>
+            </div>
+            
+            <div id="signUpLabel">
+                <p>Don't have an account?</p>
+                <button id=signUpButton onclick="location.href='signUp.html'">Sign Up</button>
+            </div>
+
+            <form id="clubLogin" action="club_login.html" method="get">
+                <div class="divider"></div>
+                <input type="submit" id=clubButton value="Club Login">
+            </form>
+        </div>
+		
+		<script type="text/javascript" src="../scripts/start_pages.js"></script>
+    </body>
+</html>

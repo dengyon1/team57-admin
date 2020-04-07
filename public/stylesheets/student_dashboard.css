@@ -1,0 +1,257 @@
+#viewTitle{
+    margin: auto;
+    margin-top: 10px;
+    font-size: 30px;
+}
+body {
+    background-color: #00204E;
+    margin: 0;
+    right: 0;
+
+}
+#dash {
+    border-bottom: 3px solid #F31155;
+}
+
+.main{
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    column-count: 3;
+    column-gap: 40px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+    -webkit-column-break-inside: avoid;
+    padding-top: 20px;
+    padding-left: 0;
+    padding-right: 0;
+    box-sizing: border-box;
+    border-radius: 50px 50px 0 0;
+    background: white;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+#upcomingEvents {
+    height: 800px;
+    color: #00204E;
+    font-family: 'Roboto', serif;
+    font-weight: bold;
+    font-size: 16px;
+    position: relative;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+#studyMeetings.card{
+    height: 800px;
+    padding-right: 20px;
+    padding-left: 20px;
+    color: #00204E;
+    font-family: 'Roboto', serif;
+    font-weight: bold;
+    font-size: 16px;
+    position: relative;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+#calendar {
+    height: 300px;
+    position: relative;
+    color: #00204E;
+    font-family: 'Roboto', serif;
+    font-weight: bold;
+    font-size: 16px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+#eventsToday {
+    height: 480px;
+    color: #00204E;
+    font-family: 'Roboto', serif;
+    font-weight: bold;
+    font-size: 16px;
+    position: relative;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+
+#upcomingTitle {
+    margin: 10px;
+    position: absolute;
+    left: 3%;
+}
+
+#clubsTitle {
+    margin: 10px;
+    position: absolute;
+    left: 3%;
+}
+#studyTitle {
+    margin: 10px;
+    position: absolute;
+    left: 3%;
+}
+
+#eventsTitle {
+    margin: 10px;
+    position: absolute;
+    left: 3%;
+}
+.title {
+    font-family: 'Roboto', serif;
+    font-size: 14px;
+    font-weight: bolder;
+    color: #00204E;
+}
+.eventTitle{
+    font-family: 'Roboto', serif;
+    font-size: 14px;
+    font-weight: bolder;
+    color: #00204E;
+}
+.eventInfo{
+    font-family: 'Roboto', serif;
+    font-size: 12px;
+    font-weight: normal;
+    color: #00204E;
+    flex: 1;
+}
+.divCircle {
+    background: #F31155;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    margin: auto;
+}
+.divDivider {
+    background: #F31155;
+    height: 5px;
+    width: 30%;
+    margin: auto;
+}
+.eventList{
+    display: inline-block;
+    margin-top: 50px;
+    width: 100%;
+    font-family: 'Roboto', serif;
+    font-size: 14px;
+    font-weight: normal;
+    color: #00204E;
+}
+
+#allMeetings{
+    display: inline-block;
+    margin-top: 50px;
+    width: 100%;
+    font-family: 'Roboto', serif;
+    font-size: 14px;
+    font-weight: normal;
+    color: #00204E;
+}
+
+#allClubs {
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    font-family: 'Roboto', serif;
+    font-size: 14px;
+    font-weight: bolder;
+    color: #00204E;
+}
+.club{
+    flex-basis: auto;
+    margin-top: 20px;
+    margin: 10px;
+    text-decoration: none;
+}
+.club img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+}
+.clubName {
+    margin-top: 5px;
+    padding-bottom: 5px;
+    font-family: 'Roboto', serif;
+    font-size: 14px;
+    font-weight: bolder;
+    color: #00204E;
+    border-bottom: 2px solid #F31155;
+}
+.eventList ul, #allMeetings ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 5px;
+}
+
+#allMeetings li.meeting {
+    width: 90%;
+    margin-top: 10px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    background: whitesmoke;
+    border-left: 5px solid #F31155;
+    height: 70px;
+    text-align: left;
+    padding: 10px;
+    padding-left: 20px;
+}
+
+#allUpcomingEvents li.event, #allTodayEvents li.event{
+    width: 90%;
+    margin-top: 10px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    height: 100px;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+}
+.eventImage{
+    flex-basis: 100px;
+    margin: 10px;
+}
+.eventImage img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.circle {
+    height: 10px;
+    width: 10px;
+    background-color: #00204E;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.monthFont {
+    font-family: 'Roboto', serif;
+    font-size: 16px;
+    font-weight: bolder;
+    color: #F31155;
+}
+.dayFont {
+    font-family: 'Roboto', serif;
+    font-size: 16px;
+    font-weight: bolder;
+    color: #00204E;
+}

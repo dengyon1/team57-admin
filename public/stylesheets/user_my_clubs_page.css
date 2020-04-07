@@ -1,0 +1,205 @@
+/* Page Title */
+#studyGroupTitlePara {
+	width: 400px;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+
+/* Search bar */
+#searchBarForm {
+	width:300px;
+	height: 24px;
+	border-bottom: 3px solid #F31155;
+	
+	float: right;
+	margin-top: 10px;
+	margin-bottom: 0px;
+	margin-right: 20px;
+}
+#searchBar {
+	width:300px;
+	height: 24px;
+	
+    color: #00204E;
+    font-family: 'Roboto', serif;
+    font-size: 16px;
+	
+	border: 0px;
+}
+
+/* Sort bar */
+#sortBarContainer {
+	width: 300px;
+	height: 24px;
+	
+    position: relative;
+	margin-top: 45px;
+	margin-left: 100px;
+	margin-bottom: 20px;
+}
+#sortByPara {
+	width: 70px;
+	margin: 0;
+}
+#sortBar {
+	width:300px;
+	
+    color: #00204E;
+    font-family: 'Roboto', serif;
+    font-weight: bold;
+    font-size: 16px;
+	
+	border: 0px;
+}
+#sortOpt {
+	color: #00204E;
+    font-family: 'Roboto', serif;
+    font-weight: bold;
+    font-size: 18px;
+	
+	border-radius: 50px 50px 50px 50px;
+}
+
+/* Area for displaying study groups */
+#studyGroupsContainer {
+    background-color: white;
+	border: 1px solid grey;
+	overflow: auto;
+	
+	height: 600px;
+	max-width: 1260px;
+	
+    min-width: 600px;
+	
+    border-radius: 50px 0px 0px 50px;
+	margin-top: 40px;
+	margin-bottom: 20px;
+	margin: auto;
+	/*margin-right: 20px;*/
+	/*margin-left: 80px;*/
+}
+
+/* Study group icons */
+.studyGroupIconContainer {
+	background-color: white;
+	border: 1px solid grey;
+	
+	width: 258px;
+	height: 258px;
+	
+	text-align: center;
+	
+	float: left;
+	border-radius: 50px 50px 50px 50px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 40px;
+}
+
+.studyGroupPicContainer {
+	width: 180;
+	height: 120;
+	border-radius: 50px 50px 50px 50px;
+	
+	margin: 0 auto;
+	margin-top: 10px;
+}
+.studyGroupPic {
+	width: 180;
+	height: 120;
+	object-fit: cover;
+	
+	border: 1px solid black;
+	border-radius: 50px 50px 50px 50px;
+}
+
+.studyGrpNameContainer {
+	margin: 0;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.noClubsTextContainer {
+	margin: 0;
+	margin-top: 110px;
+}
+
+.studyGrpButtonContainer {
+	margin-top: 2px;
+}
+.studyGroupEventButton {
+	background-color: #F31155;
+	
+	height: 35px;
+	width: 150px;
+	
+	font-size: 16px;
+	font-weight: bold;
+	color: white;
+
+	margin: 0 auto;
+	
+	border-radius: 50px 50px 50px 50px;
+	display: block;
+}
+.studyGroupGrpPgButton {
+	background-color: #00204E;
+	
+	height: 35px;
+	width: 150px;
+	
+	font-size: 16px;
+	font-weight: bold;
+	color: white;
+
+	margin: 0 auto;
+	
+	border-radius: 50px 50px 50px 50px;
+	display: block;
+}
+
+/* Text and colours */
+.studyGroupsTitleText {
+	font-family: 'Shadows Into Light', serif;
+    font-size: 40px;
+    color: #F31155;
+	
+}
+
+.sortByText {
+	color: #00204E;
+    font-family: 'Roboto', serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.studyGrpNameText {
+	color: #00204E;
+    font-family: 'Roboto', serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* Sidebar selection*/
+#club {
+    border-bottom: 3px solid #F31155;
+}
+
+/* Dashboard area */
+#dashboardArea {
+	font-family: 'Shadows Into Light', serif;
+    font-size: 16px; /* Set to default */
+    color: #F31155;
+    text-align: left; /* Set to default */
+    background-color: white;
+    min-width: 500px;
+    border-radius: 50px 0px 0px 0px;
+    position: fixed;
+    top: 80px;
+    right: 0;
+    left: 150px;
+    bottom: 0;
+    margin-right: 0;
+    display: inline-block;
+}

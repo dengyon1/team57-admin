@@ -1,0 +1,111 @@
+#dashboardArea{
+    overflow: auto;
+}
+#dash {
+    border-bottom: 3px solid #F31155;
+}
+#upcomingEvents {
+    color: #00204E;
+    font-family: 'Roboto', serif;
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    left: 10%;
+}
+.eventDate {
+    margin: 10px;
+}
+.monthFont {
+    font-family: 'Roboto', serif;
+    font-size: 16px;
+    font-weight: bolder;
+    color: #F31155;
+}
+.dayFont {
+    font-family: 'Roboto', serif;
+    font-size: 16px;
+    font-weight: bolder;
+    color: #00204E;
+}
+
+#allEvents {
+    width: 45%;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 25px 25px 0 0;
+    position: absolute;
+    margin-top: 60px;
+    left: 10%;
+    height: 1000px;
+}
+.eventButton{
+  background-color: #00204E;
+  border-radius: 35px;
+  border:none;
+  color:white;
+  font-size: 16px;
+  font-family: 'Roboto',serif;
+  padding:10px;
+  float:right;
+  margin-right: 30%;
+  cursor: pointer;
+}
+
+.eventList{
+    display: inline-block;
+    margin-top: 10px;
+    width: 100%;
+    font-family: 'Roboto', serif;
+    font-size: 14px;
+    font-weight: normal;
+    color: #00204E;
+}
+#allEvents ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 5px;
+}
+#allEvents li.event {
+    width: 90%;
+    margin-top: 10px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    height: 130px;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+}
+
+.eventTitle{
+    font-family: 'Roboto', serif;
+    font-size: 16px;
+    font-weight: bolder;
+    color: #00204E;
+}
+.eventInfo{
+    font-family: 'Roboto', serif;
+    font-size: 14px;
+    font-weight: normal;
+    color: #00204E;
+    flex: 1;
+}
+.eventImage{
+    flex-basis: 100px;
+    margin: 10px;
+}
+.eventImage img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.divDivider {
+    background: #F31155;
+    height: 5px;
+    width: 30%;
+    margin: auto;
+}
+.clear{
+  clear:both;
+}

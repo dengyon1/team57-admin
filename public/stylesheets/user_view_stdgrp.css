@@ -1,0 +1,168 @@
+/* Image container and image */
+#clubImageContainer {
+	text-align: left;
+	margin-top: 40px;
+	margin-left: 40px;
+}
+#clubImage {
+	width: 1350px;
+	height: 350px;
+	object-fit: cover;
+
+	border: 1px solid black;
+	border-radius: 50px 50px 50px 50px;
+}
+
+/* All club information container */
+#eventInformationContainer {
+	text-align: left;
+	margin-left: 40px;
+	float: left;
+}
+
+/* Club category container and text */
+#clubCategoryContainer {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+/* Table position properties and individual row and column properties */
+#clubInformationTable {
+	margin-top: 20px;
+	margin-left: -4px;
+}
+#clubInformationTable tr {
+	height: 50px;
+}
+.clubInformationTableColumn {
+	width: 190px;
+}
+
+/*Interested and attendence */
+#interestAndAttendanceContainer {
+	width: 242px;
+
+	margin-top: 60px;
+	margin-left: 800px;
+}
+
+#interestBox {
+	background-color: white;
+    width: 240px;
+	height: 210px;
+
+	text-align: center;
+
+    border-radius: 50px 50px 50px 50px;
+	border: 1px solid grey;
+}
+
+#noButtonContainer {
+	margin-top: 20px;
+}
+
+/* Buttons */
+
+#yesButton {
+	background-color: #F31155;
+
+	height: 50px;
+	width: 150px;
+
+	font-size: 22px;
+	font-weight: bold;
+	color: white;
+
+	margin: 0 auto;
+
+	border-radius: 50px 50px 50px 50px;
+	display: block;
+}
+
+#noButton {
+	background-color: white;
+
+	height: 50px;
+	width: 150px;
+
+	font-size: 22px;
+	font-weight: bold;
+	color: #00204E;
+
+	margin: 0 auto;
+
+	border-radius: 50px 50px 50px 50px;
+	border: 1px solid black;
+	display: block;
+}
+
+/* Text and colours */
+.clubCategoryText {
+	font-family: 'Shadows Into Light', serif;
+    font-size: 40px;
+    color: #F31155;
+}
+
+.clubInformationText {
+	color: #00204E;
+    font-family: 'Roboto', serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.clubDescriptionText {
+	color: #878B90;
+    font-family: 'Roboto', serif;
+    font-size: 20px;
+}
+
+.interestText {
+	font-size: 26px;
+	font-weight: bold;
+	color: #00204E;
+	font-family: 'Roboto', serif;
+
+	text-align: center;
+}
+
+.attendenceText {
+	font-size: 20px;
+	font-weight: bold;
+	color: #00204E;
+	font-family: 'Roboto', serif;
+
+	text-align: center;
+}
+
+.attendenceNumText {
+	font-size: 20px;
+	font-weight: bold;
+	color: #F31155;
+	font-family: 'Roboto', serif;
+
+	text-align: center;
+}
+
+/* Sidebar selection*/
+#study {
+    border-bottom: 3px solid #F31155;
+}
+
+/* Dashboard area */
+#dashboardArea {
+	font-family: 'Shadows Into Light', serif;
+    font-size: 16px; /* Set to default */
+    color: #F31155;
+    text-align: left; /* Set to default */
+    background-color: white;
+    min-width: 500px;
+    border-radius: 50px 0px 0px 0px;
+    position: fixed;
+    top: 80px;
+    right: 0;
+    left: 150px;
+    bottom: 0;
+    margin-right: 0;
+    display: inline-block;
+		overflow: auto;
+}

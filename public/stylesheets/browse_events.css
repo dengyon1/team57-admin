@@ -1,0 +1,370 @@
+body {
+    background-color: #00204E;
+    height: 100%;
+    margin: 0;
+    right: 0;
+}
+h1 {
+    color: white;
+    font-family: 'Roboto', serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    position: fixed;
+    margin-top: 20px;
+    width: 90%;
+    display: inline-block;
+    left: 150px;
+
+}
+
+#dashboardArea {
+    font-family: 'Shadows Into Light', serif;
+    font-size: 16px;
+    color: black;
+    text-align: left;
+    background-color: white;
+    min-width: 500px;
+    border-radius: 50px 50px 0px 0px;
+    position: absolute;
+    top: 80px;
+    right: 0;
+    left: 150px;
+    bottom: 0;
+    margin-right: 0;
+	padding-left: 80px;
+    display: inline-block;
+	/*height:800px;*/
+}
+#greeting{
+  font-family: 'Shadows Into Light', serif;
+  font-size: 40px;
+  color: #F31155;
+  text-align: left;
+}
+
+.ViewIconContainer {
+	height: 70px;
+    width: 70px;
+    text-align: center;
+    overflow: hidden;
+    margin: 0;
+	float:right;
+}
+.ViewIcon {
+	color: #F31155;
+	width: 50%;
+    height: 50%;
+    margin-top: 40%;
+}
+.ViewName {
+    color: #F31155;
+    font-family: 'Roboto', serif;
+    font-size: 14px;
+    text-align: center;
+}
+
+
+.name {
+    color: white;
+    font-family: 'Roboto', serif;
+    font-size: 14px;
+    text-align: center;
+}
+
+#browse {
+    border-bottom: 3px solid #F31155;
+}
+#calendar {
+    max-width: 200px;
+    max-height: 150px;
+    position: absolute;
+    margin: 0;
+    right: 0;
+    top: 10%;
+    left: 80%;
+    display: inline-block;
+}
+#month {
+    color: #F31155;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: block;
+    list-style-type: none;
+}
+#prev {
+    font-size: 12px;
+    font-family: 'Roboto', serif;
+    color: #F31155;
+    float: left;
+    margin-left: 10px;
+    padding: 0;
+}
+#next {
+    font-size: 12px;
+    font-family: 'Roboto', serif;
+    color: #F31155;
+    float: right;
+    margin-right: 10px;
+    padding: 0;
+}
+#monthTitle {
+    font-size: 14px;
+    font-family: 'Roboto', serif;
+    font-weight: bold;
+    color: #F31155;
+    margin: 0px;
+    padding: 0;
+}
+
+.weekdays {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.categoryItems li {
+    list-style-type: none;
+    color: #00204E;
+    font-size: 10px;
+    width: 17%;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    display: inline-block;
+    font-family: 'Roboto', serif;
+    font-weight: bolder;
+    text-align: center;
+}
+.programItems li {
+    list-style-type: none;
+    color: #00204E;
+    font-size: 10px;
+    width: 17%;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    display: inline-block;
+    font-family: 'Roboto', serif;
+    font-weight: bolder;
+    text-align: center;
+}
+.suggestedItems li {
+    list-style-type: none;
+    color: #00204E;
+    font-size: 10px;
+    width: 17%;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    display: inline-block;
+    font-family: 'Roboto', serif;
+    font-weight: bolder;
+    text-align: center;
+}
+.days {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.days li {
+    list-style-type: none;
+    display: inline-block;
+    width: 5%;
+    text-align: center;
+    font-size: 10px;
+    font-family: 'Roboto', serif;
+    color: #00204E;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.days li .current {
+    padding: 5px;
+    padding-left: 7px;
+    padding-right: 7px;
+    background-color: #F31155;
+    border-radius: 50%;
+    color: white;
+}
+.events_clubs_search{
+  position:relative;
+}
+#selectEvents {
+    color: #00204E;
+    font-family: 'Roboto', serif;
+    font-weight: bold;
+    font-size: 16px;
+    position: relative;
+    float:left;
+    text-decoration: underline;
+}
+
+
+#selectClubs {
+    color: #00204E;
+    font-family: 'Roboto', serif;
+    font-weight: bold;
+    font-size: 16px;
+    position: relative;
+    float:left;
+    margin-left: 80px;
+    text-decoration: underline;
+
+}
+#search {
+    color: #00204E;
+    font-family: 'Roboto', serif;
+    font-weight: bold;
+    font-size: 16px;
+  	width:300px;
+	  border-bottom: 3px solid #F31155;
+    position: relative;
+  	float: right;
+  	margin-right: 200px;
+}
+#search input{
+  width:242px;
+  font-family: 'Roboto', serif;
+  font-size: 16px;
+  border:none;
+}
+#Category {
+    color: #00204E;
+    font-family: 'Roboto', serif;
+    font-weight: bold;
+    font-size: 20px;
+    position: relative;
+
+
+}
+
+.CategoryBar{
+width:1200px;
+height:100px;
+position: relative;
+margin-top: 20px;
+color: white;
+border:1px solid #ccc;
+padding-top: 15px;
+
+}
+.Categoryhd{
+  color: #00204E;
+  font-family: 'Roboto', serif;
+  font-weight: bold;
+  font-size: 20px;
+  position: relative;
+  left: 0px;
+  margin-top:20px;
+  margin-bottom: 20px;
+
+
+}
+.clear{
+  clear:both;
+}
+.Cat1{
+  float:left;
+  width:18%;
+  text-align: center;
+  box-sizing: border-box;
+
+}
+.programBar{
+	width:1200px;
+	height:100px;
+	position: relative;
+	margin-top: 20px;
+	color: white;
+	border:1px solid #ccc;
+	padding-top: 15px;
+
+}
+.More{
+  float:left;
+  width:10%;
+  text-align: center;
+  box-sizing: border-box;
+  margin-top: 20px;
+
+}
+.eventIcon{
+  width:120px;
+  height:70px;
+  border:1px solid black;
+}
+.moreIcon{
+  width:30px;
+  height:30px;
+}
+.eventName{
+	color: #00204E;
+	font-size: 10px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-family: 'Roboto', serif;
+	font-weight: bolder;
+	text-align: center;
+  
+}
+#Program {
+    color: #00204E;
+    font-family: 'Roboto', serif;
+    font-weight: bold;
+    font-size: 20px;
+    position: relative;
+    left: 0px;
+	top: 160px
+}
+#ProgramBar {
+    width:1200px;
+	height:100px;
+	position: relative;
+	color: white;
+	left: 0px;
+	top: 60px;
+	border: 1px solid #D6DBDF
+}
+
+#Suggested {
+    color: #00204E;
+    font-family: 'Roboto', serif;
+    font-weight: bold;
+    font-size: 20px;
+    position: relative;
+    left: 0px;
+	top: 300px
+}
+#SuggestedBar {
+    width:1200px;
+	height:100px;
+	position: relative;
+	color: white;
+	left: 0px;
+	top: 130px;
+	border: 1px solid #D6DBDF
+}
+.circle {
+    height: 10px;
+    width: 10px;
+    background-color: #00204E;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5px;
+}
+/* colours */
+.magenta {
+    color: #F31155;
+}
+
+.navy {
+    color: #00204E;
+}
+
+.white {
+    color: white;
+}
+
+.gray {
+    color: #878B90;
+}

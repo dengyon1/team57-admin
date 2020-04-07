@@ -1,0 +1,148 @@
+
+body {
+    background-color: #00204E;
+    margin: 0;
+    font-family: 'Roboto', serif;
+}
+div {
+    display: block;
+}
+form {
+    display: block;
+    margin: 0;
+}
+
+label {
+    color: #00204E;
+    margin: auto;
+    width: 70%;
+    text-align: center;
+    margin: 10%;
+    margin-bottom: 40px;
+}
+
+input[type =text], input[type=password] {
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 2px solid #00204E;
+    display: block;
+    padding: 10px;
+    width: 70%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+input[type=password]#psw {
+    margin-bottom: 20px;
+}
+
+.login{
+    background: white;
+    left: 50%;
+    margin-left: -180px;
+    margin-top:-200px;
+    height: 360px;
+    position: absolute;
+    top: 50%;
+    width: 360px;
+    border-radius: 25px;
+}
+
+
+.loginForm {
+    margin: auto;
+    margin-top: 10%;
+    width: 80%;
+}
+
+#loginButton{
+    background-color: #F31155;
+    color: white;
+    cursor: pointer;
+    width: 80%;
+    padding: 10px;
+    border-radius: 30px;
+    display: block;
+    text-align: center;
+    margin: auto;
+    min-width: 150px;
+    border: none;
+}
+
+#loginPic {
+    border: solid;
+    border-color: white;
+    border-radius: 50%;
+    width: 80px;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+}
+
+#signUpLabel {
+    text-align: center;
+    width: 80%;
+    display: block;
+    font-size: 14px;
+    margin: auto;
+
+}
+
+#signUpButton {
+    background-color: white;
+    color: #F31155;
+    cursor: pointer;
+    width: 80%;
+    padding: 10px;
+    border-radius: 30px;
+    border: 2px solid #F31155;
+    display: block;
+    text-align: center;
+    margin: auto;
+    min-width: 150px;
+}
+
+.divider {
+    width: 50%;
+    border-bottom: 2px solid #00204E;
+    margin: auto;
+    margin-top: 20px;
+}
+
+#clubLogin {
+    text-align: center;
+    width: 80%;
+    display: block;
+    font-size: 14px;
+    margin: auto;
+}
+#clubButton {
+    background-color: #00204E;
+    color: white;
+    cursor: pointer;
+    width: 80%;
+    padding: 10px;
+    border-radius: 30px;
+    display: block;
+    text-align: center;
+    margin: auto;
+    min-width: 150px;
+    margin-top: 20px;
+    border: none;
+}
+.magenta {
+    color: #F31155;
+}
+
+.navy {
+    color: #00204E;
+}
+
+.white {
+    color: white;
+}
+
+.gray {
+    color: #878B90;
+}

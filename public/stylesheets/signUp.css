@@ -1,0 +1,107 @@
+
+body {
+    background-color: #00204E;
+    margin: 0;
+    font-family: 'Roboto', serif;
+}
+div {
+    display: block;
+}
+form {
+    display: block;
+    margin: 0;
+}
+
+label {
+    color: #00204E;
+    margin: auto;
+    width: 70%;
+    text-align: center;
+    margin: 10%;
+    margin-bottom: 10px;
+}
+label#labelUname, label#labelPsw, label#confirm  {
+    color: #F31155;
+}
+
+input[type=text], input[type=password] {
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 2px solid #00204E;
+    display: block;
+    padding: 10px;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 10px;
+}
+input[type=text]#lastName {
+    margin-bottom: 30px;
+}
+input[type=password]#confirmPsw, input[type=text]#uname, input[type=password]#psw {
+    border-bottom: 2px solid #F31155;
+}
+
+.signUp{
+    background: white;
+    left: 50%;
+    margin-left: -180px;
+    margin-top:-200px;
+    height: 465px;
+    position: absolute;
+    top: 50%;
+    width: 360px;
+    border-radius: 25px;
+}
+
+.signUpForm {
+    margin: auto;
+    width: 80%;
+}
+#signUpFormContainer{
+    margin-top: 30px;
+}
+.submit {
+    margin-top: 25px;
+}
+#signUpPageButton{
+    background-color: #F31155;
+    color: white;
+    cursor: pointer;
+    width: 80%;
+    padding: 10px;
+    border-radius: 30px;
+    display: block;
+    text-align: center;
+    margin: auto;
+    min-width: 150px;
+    margin-top: 10px;
+    border: none;
+}
+
+#loginPic {
+    border: solid;
+    border-color: white;
+    border-radius: 50%;
+    width: 80px;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+}
+
+
+.magenta {
+    color: #F31155;
+}
+
+.navy {
+    color: #00204E;
+}
+
+.white {
+    color: white;
+}
+
+.gray {
+    color: #878B90;
+}

@@ -1,0 +1,146 @@
+/* Profile picture */
+#userProfilePicContainer {
+	width: 350px;
+	height: 350px;
+
+	margin: 0 auto;
+	margin-top: 40px;
+}
+#userProfilePic {
+	width: 350px;
+	height: 350px;
+	object-fit: cover;
+
+	border-radius: 50%;
+
+	color: #00204E /* For placeholder text */
+}
+
+#pictureInformationDivider {
+	width: 100px;
+	border-top: 5px solid #00204E;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+/* Profile username */
+#userNamePara {
+	margin: 0 auto;
+}
+.userNameProfile {
+	color: #00204E;
+    font-family: 'Roboto', serif;
+    font-size: 56px;
+}
+
+
+/* Edit profile button */
+#editButtonContainer {
+	margin-left: 300px;
+}
+#editButton {
+	background-color: white;
+	border: 0px solid black;
+}
+#editButtonIcon {
+	width: 50px;
+	height: 50px;
+}
+
+/* Profile information container */
+#profileInformationContainer {
+	width: 540px;
+
+	margin: 0 auto;
+}
+/* Table position properties and individual row and column properties */
+#profileInformationTable {
+	border-spacing: 0 40px;
+	margin: 0 auto;
+}
+.profileInformationTableColumn {
+	text-align: left;
+	width: 100px;
+}
+.profileDescriptionTableColumn {
+	width: 400px;
+}
+
+#profileInterestsContainer {
+	min-height: 100px;
+	max-height: 200px;
+	overflow: auto;
+}
+.profileInterestBubble {
+	width: 170px;
+	padding: 10px;
+	word-wrap: break-word;
+
+	float: left;
+
+	border-radius: 50px 50px 50px 50px;
+
+	margin: 0;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+/* Text and colours */
+.profileInformationText {
+	color: #00204E;
+    font-family: 'Roboto', serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+.profileDescriptionText {
+	color: #878B90;
+    font-family: 'Roboto', serif;
+    font-size: 20px;
+}
+
+.profileInterestsText {
+	color: white;
+	font-family: 'Roboto', serif;
+    font-size: 18px;
+}
+.editText{
+	color: #00204E;
+    font-family: 'Roboto', serif;
+    font-size: 20px;
+}
+.interestBubbleColourMagenta {
+	background-color: #F31155;
+}
+
+.interestBubbleColourMediumBlue {
+	background-color: #0000CD;
+}
+
+.interestBubbleColourNavy {
+	background-color: #00204E;
+}
+
+/* Sidebar selection*/
+#profile a {
+	padding-bottom: 7px;
+    border-bottom: 3px solid #F31155;
+}
+
+/* Dashboard area */
+#dashboardArea {
+	font-family: 'Roboto', serif;
+    font-size: 16px; /* Set to default */
+    color: #F31155;
+    text-align: center; /* Set to default */
+    background-color: white;
+    min-width: 500px;
+    border-radius: 50px 0px 0px 0px;
+    position: fixed;
+    top: 80px;
+    right: 0;
+    left: 150px;
+    bottom: 0;
+    margin-right: 0;
+    display: inline-block;
+		overflow: auto;
+}
